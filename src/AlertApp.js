@@ -2,7 +2,7 @@ import './AlertApp.css';
 import {useState} from 'react'
 
 function AlertApp() {
-    const [showAlert, setShowAlert] = useState(true);
+    const [showAlert, setShowAlert] = useState(false);
 
     function handleAlertOK() {
         console.log('the frob should be blitzened here');
