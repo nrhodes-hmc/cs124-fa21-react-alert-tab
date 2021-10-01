@@ -6,7 +6,7 @@ import AlertApp from './AlertApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AlertApp />
+    <TabApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

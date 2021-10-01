@@ -10,3 +10,5 @@ export function Tab(props) {
         {props.label}
     </li>
 }
+
+export default Tab;
