@@ -1,9 +1,7 @@
-import './App.css';
-
 import {useState} from 'react'
 import {Tab} from "./Tab";
 
-function App() {
+function TabApp() {
     const [activeTab, setActiveTab] = useState("Tab 1");
     return (
         <div className="tabs">
@@ -23,4 +21,4 @@ function App() {
     );
 }
 
-export default App;
+export default TabApp;
