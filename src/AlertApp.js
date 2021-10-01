@@ -14,7 +14,7 @@ function AlertApp() {
                 This is my app
                 <br/>
                 <button type={"button"} onClick={() => console.log('clicked')}>
-                    A button
+                    Log to Console
                 </button>
                 <button type={"button"} onClick={()=>setShowAlert(true)}>
                     Frob
