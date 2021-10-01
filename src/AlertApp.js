@@ -21,6 +21,7 @@ function Alert(props) {
         </div>
     </div>
 }
+
 function AlertApp() {
     const [showAlert, setShowAlert] = useState(true);
 
